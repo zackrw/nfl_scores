@@ -16,6 +16,9 @@
     "scores",
     "sports"
   ],
+  "dependencies": {
+    "request": "2.x"
+  },
   "author": "Zack Reneau-Wedeen",
   "license": "MIT"
 }

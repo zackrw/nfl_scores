@@ -13,10 +13,13 @@ NFL Scores exposes a clean API for getting live data about the day's nfl scores.
 
 ###### 2. use it
 
-    // acquire the most up to date scores.
-    nflScores.refresh();
+    // Acquire the most up to date scores, and inspect them.
+    nflScores.refresh(function(scores) {
+      console.log(scores);
+    });
 
-    // inspect the scores.
+    // Inspect the last set of refreshed scores
+    // without sending any network traffic.
     console.log(nflScores.scores);
 
 #### Example dashboard
