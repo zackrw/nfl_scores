@@ -1,3 +1,4 @@
 
 node_modules
 examples/dashboard/node_modules
+*.swp
