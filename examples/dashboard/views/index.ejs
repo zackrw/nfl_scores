@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <div class="container">
+          <h1><%= title %></h1>
+          <h2>Week <%= week %></h2>
+          <div class="games">
+              <% for (var i = 0; i < games.length; i++) { %>
+                  <div class="game">
+                      <div class="visitor team">
+                          <%= games[i].vnn %>: <%= games[i].vs %>
+                      </div>
+                      <div class="at">
+                          at
+                      </div>
+                      <div class="home team">
+                          <%= games[i].hnn %>: <%= games[i].hs %>
+                      </div>
+                  </div>
+              <% }%>
+          </div>
+      </div>
+  </body>
+</html>
