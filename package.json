@@ -1,6 +1,6 @@
 {
   "name": "nfl_scores",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An API to get live NFL scores.",
   "main": "index.js",
   "scripts": {
