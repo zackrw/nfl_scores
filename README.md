@@ -34,3 +34,6 @@ In the root dir, run `npm test` or `make test` to run all tests.
 Run `make coverage` to run the coverage tests. or just open coverage.html from the git repo in your browser to see the results of the latest coverage test.
 
 NFL Scores is written by [Zack Reneau-Wedeen](http://zackrw.com)
+
+#### Suggestions
+Give me suggestions by commenting a

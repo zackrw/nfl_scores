@@ -8,7 +8,7 @@ describe('NFL Scores', function() {
 
   describe('#refresh', function() {
     before(function(done) {
-      nflScores.refresh(function(scores) {
+      nflScores.refresh(function(err, scores) {
         globalScores = scores;
         done();
       });
