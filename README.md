@@ -1,5 +1,5 @@
 ## NFL Scores
-NFL Scores exposes a clean API for getting live data about the day's nfl scores. It queries nfl.com xml endpoints and relies on the xml2js library to convert that to a JS object.
+NFL Scores exposes a clean API for getting live data about the day's nfl scores. It queries nfl.com json endpoints.
 
 #### Installation
 
@@ -14,7 +14,7 @@ NFL Scores exposes a clean API for getting live data about the day's nfl scores.
 ###### 2. use it
 
     // Acquire the most up to date scores, and inspect them.
-    nflScores.refresh(function(scores) {
+    nflScores.refresh(function(err, scores) {
       console.log(scores);
     });
 
@@ -34,6 +34,3 @@ In the root dir, run `npm test` or `make test` to run all tests.
 Run `make coverage` to run the coverage tests. or just open coverage.html from the git repo in your browser to see the results of the latest coverage test.
 
 NFL Scores is written by [Zack Reneau-Wedeen](http://zackrw.com)
-
-#### Suggestions
-Give me suggestions by commenting a
