@@ -27,11 +27,11 @@ describe('NFL Scores', function() {
     });
 
     it('should set gms object on the scores', function() {
-      (typeof nflScores.scores.gms).should.equal('object');
+      (typeof nflScores.scores.games).should.equal('object');
     });
 
     it('should set w number on the scores', function() {
-      (typeof nflScores.scores.w).should.equal('number');
+      (typeof nflScores.scores.week).should.equal('number');
     });
 
   });
