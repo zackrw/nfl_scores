@@ -9,7 +9,7 @@ NFL Scores exposes a clean API for getting live data about the day's nfl scores.
 
 ###### 1. require it
 
-    var nflScores = requre("nfl_scores");
+    var nflScores = require("nfl_scores");
 
 ###### 2. use it
 
